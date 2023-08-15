@@ -38,4 +38,28 @@
 }
 .texto-tablet{
     display: block;
+    font-size: 30px;
+    color: aliceblue;
+    margin-top: 3em;
+    padding: 1em;
+}
+.texto-desktop,.texto-mobile{
+   display: none;
+}
+@media screen (min-width 1728px) {
+    .container_frase{
+        font-size: 30px;
+        display: inline-block;
+    }
+   .container_frase{
+    font-weight: 400;
+    padding-left: 5em;
+   }
+   .texto-desktop{
+    display: block;
+    font-size: 30px;
+    color: aqua;
+    margin-top: 3em;
+    padding: 1em;
+   } 
 }
